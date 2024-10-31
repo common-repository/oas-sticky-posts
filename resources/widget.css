@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Error Messages  */
+#plugin-not-found
+{
+	background-color: #FFECEC;
+	border-bottom-color: #ccc;
+	color: #555;
+	padding: 5px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+/* SORTABLE LIST STYLE  */
+.connectedSortableN li,
+.connectedSortable li 
+{
+	padding: 5px;
+	margin: 3px;
+	background-color: #E6F1FF;
+	border: 1px solid #B7D9FF;
+	width: 200px;
+	cursor:default;
+}
+
+.connectedSortableB li 
+{
+	padding: 5px;
+	margin: 3px;
+	background-color: #FFFBE6;
+	border: 1px solid #FFE8B7;
+	width: 200px;
+	cursor:default;
+}
+
+.connectedSortable,
+.connectedSortableB,
+.connectedSortableN 
+{
+	float: left;
+	width: 220px;
+}
+
+.connectedSortable .NewlyAdded 
+{
+	font-weight:bold;
+}
+
+#ActiveTags 
+{
+	float: left;
+	width: 300px;
+}
+
+#InactiveTags 
+{
+	float: left;
+	width: 300px;
+}
+
+.favourite_post_list 
+{
+	height: 150px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.favourite_post_list a 
+{
+	text-decoration:none;
+}
+
+.favourite_post_list li 
+{
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.favourite_post_list .fpl_alt 
+{
+	background-color: #F7F7F7;
+}
+
+.widefat .column-id
+{
+	width: 10em;
+}
+
+#table-favourite-posts-list thead th
+{
+	cursor:pointer;
+}
+#table-favourite-posts-list tr.over
+{
+	background-color: #C9E0F1;	
+}
+
+
+.sortable_favourite_list
+{
+	padding-bottom:10px;
+}
+
+.sortable_favourite_list li 
+{
+	padding: 5px;
+	margin: 3px;
+	background-color: #FFFBE6;
+	border: 1px solid #FFE8B7;
+	cursor:default;
+}
+
+
+
+
+
+/* tables - jquery table-sorter */
+table.tablesorter {
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 12px;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #E6E6E6;
+	border: 1px solid #FFF;
+	font-size: 12px;
+	padding: 4px;
+}
+table.tablesorter tfoot tr th {
+	border: 1px solid #FFF;
+	font-size: 12px;
+	padding: 4px;
+	background-color: #F9F9F9;
+}
+table.tablesorter thead tr .header {
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F9F9F9;
+}
+table.tablesorter thead tr .headerSortUp {
+	
+}
+table.tablesorter thead tr .headerSortDown {
+	
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #8dbdd8;
+}
+table.tablesorter small {
+	color: #E5E5E5;
+
+}
+table.tablesorter tbody  tr.over td {
+	background-color: #e4f2fd;
+}
+.even {
+}
+.odd {
+	background-color: #f9f9f9;
+}
+.highlight {
+}
